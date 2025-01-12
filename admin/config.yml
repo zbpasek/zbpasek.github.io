@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: main
-  # repo: zbpasek/repo-name
+  repo: zbpasek/repo-name
   # branch: main
   # base_url: https://zbpasek.github.io
   # auth_endpoint: callback
