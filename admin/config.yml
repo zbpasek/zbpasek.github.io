@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main # Gałąź, do której będą zapisywane zmiany
+
+media_folder: "assets/uploads" # Folder na przesyłane pliki w repozytorium
+public_folder: "/assets/uploads" # Ścieżka publiczna do mediów
+
+collections:
+  - name: "pages"
+    label: "Strony"
+    files:
+      - label: "O mnie"
+        name: "about"
+        file: "_pages/about.md"
+        fields:
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Treść", name: "body", widget: "markdown" }
