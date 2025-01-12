@@ -1,9 +1,10 @@
 backend:
-  name: github
-  repo: zbpasek/repo-name
+  name: git-gateway
   branch: main
-  base_url: https://zbpasek.github.io
-  auth_endpoint: callback
+  # repo: zbpasek/repo-name
+  # branch: main
+  # base_url: https://zbpasek.github.io
+  # auth_endpoint: callback
 
 media_folder: "assets/uploads" # Folder na przesyłane pliki w repozytorium
 public_folder: "/assets/uploads" # Ścieżka publiczna do mediów
