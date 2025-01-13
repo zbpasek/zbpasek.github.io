@@ -26,3 +26,15 @@ collections:
       - { label: "Rok", name: "year", widget: "string", required: true }
       - { label: "Tytuł", name: "title", widget: "string", required: true }
       - { label: "Opis", name: "description", widget: "text", required: true }
+
+  - name: "publications"
+    label: "Publikacje"
+    folder: "_publications"
+    create: true
+    slug: "{{title}}" # Plik będzie nazwany na podstawie tytułu
+    format: "yaml-frontmatter" # Użycie YAML z front matter
+    extension: "md" # Pliki będą miały rozszerzenie .md
+    fields:
+      - { label: "Nazwa rozdziału", name: "section", widget: "string", required: true }
+      - { label: "Rok", name: "year", widget: "number", required: true }
+      - { label: "Przypis", name: "citation", widget: "text", required: true }

@@ -148,6 +148,8 @@ collections:
   grants:
     output: true
 
+  publications:
+    output: true
 
 
 # -----------------------------------------------------------------------------
