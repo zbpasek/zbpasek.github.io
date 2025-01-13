@@ -19,9 +19,9 @@ collections:
     label: "Granty"
     folder: "_grants"
     create: true
-    # slug bazuje na tytule:
-    slug: "{{title}}"
-    format: "yml"
+    slug: "{{title}}" # Plik będzie nazwany na podstawie tytułu
+    format: "yml"     # Plik będzie zapisany jako YAML
+    frontmatter_delimiter: ["---", "---"] # Ustawienie separatorów front matter
     fields:
       - { label: "Rok", name: "year", widget: "string", required: true }
       - { label: "Tytuł", name: "title", widget: "string", required: true }
