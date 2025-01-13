@@ -3,32 +3,32 @@
   title: "Wspólnoty religijne Wisły"
   description: "Grant badawczy i wydawniczy Rady Miasta Wisły"
 
-# - id: 2
-#   year: 2009-2011
-#   title: "Mistycyzm pentekostalny w Polsce"
-#   description: "Grant promotorski Narodowego Centrum Nauki (dr Andrzej Migda)"
+- id: 2
+  year: 2009-2011
+  title: "Mistycyzm pentekostalny w Polsce"
+  description: "Grant promotorski Narodowego Centrum Nauki (dr Andrzej Migda)"
 
-# - id: 3
-#   year: 2014
-#   title: "Skarb jako szansa na wyjście z szybu"
-#   description: "Grant rektora AGH dla Koła Naukowego Kulturoznawców (opieka merytoryczna i realizacja badań terenowych w Wałbrzychu)"
+- id: 3
+  year: 2014
+  title: "Skarb jako szansa na wyjście z szybu"
+  description: "Grant rektora AGH dla Koła Naukowego Kulturoznawców (opieka merytoryczna i realizacja badań terenowych w Wałbrzychu)"
 
-# - id: 4
-#   year: 2015
-#   title: "Etos górniczy w 20 lat po zamknięciu kopalń"
-#   description: "Grant rektora AGH dla Koła Naukowego Kulturoznawców (opieka merytoryczna i realizacja badań terenowych w Wałbrzychu)"
+- id: 4
+  year: 2015
+  title: "Etos górniczy w 20 lat po zamknięciu kopalń"
+  description: "Grant rektora AGH dla Koła Naukowego Kulturoznawców (opieka merytoryczna i realizacja badań terenowych w Wałbrzychu)"
 
-# - id: 5
-#   year: 2019
-#   title: "Kulturowe aspekty strategii promocyjnych Wałbrzycha"
-#   description: "Grant rektora AGH dla Koła Naukowego Kulturoznawców (opieka merytoryczna i realizacja badań terenowych)"
+- id: 5
+  year: 2019
+  title: "Kulturowe aspekty strategii promocyjnych Wałbrzycha"
+  description: "Grant rektora AGH dla Koła Naukowego Kulturoznawców (opieka merytoryczna i realizacja badań terenowych)"
 
-# - id: 6
-#   year: 2020
-#   title: "Zabytki w krajobrazie kulturowym powiatu wałbrzyskiego"
-#   description: "Grant rektora AGH dla Kulturoznawczego Koła Naukowego (opieka merytoryczna i realizacja badań terenowych)"
+- id: 6
+  year: 2020
+  title: "Zabytki w krajobrazie kulturowym powiatu wałbrzyskiego"
+  description: "Grant rektora AGH dla Kulturoznawczego Koła Naukowego (opieka merytoryczna i realizacja badań terenowych)"
 
-# - id: 7
-#   year: 2022
-#   title: "Kulturowe determinanty postaw proekologicznych na przykładzie Wisły"
-#   description: "Grant rektora AGH dla Kulturoznawczego Koła Naukowego (opieka merytoryczna i realizacja badań terenowych)"
+- id: 7
+  year: 2022
+  title: "Kulturowe determinanty postaw proekologicznych na przykładzie Wisły"
+  description: "Grant rektora AGH dla Kulturoznawczego Koła Naukowego (opieka merytoryczna i realizacja badań terenowych)"
