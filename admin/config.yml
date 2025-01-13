@@ -16,16 +16,11 @@ collections:
           - { label: "Treść", name: "body", widget: "markdown" }
   - name: "grants"
     label: "Granty"
-    folder: "_data" # ścieżka do folderu, w którym znajdują się pliki z danymi (koniecznie)
-    create: false  # blokujemy tworzenie nowych plików w folderze _data z poziomu CMS
-    slug: "{{year}}" # ustawiamy slug (nazwę pliku) - z tego zrobiony bedzie _data/grants/<slug>.yml
-    extension: "yml"  # ustalamy domyślne rozszerzenie
-    format: "yml" # format danych
-    fields:
-      - label: "Lista grantów"
-        name: "grants"
-        widget: "list"
-        fields:
-          - { label: "Rok", name: "year", widget: "string" }
-          - { label: "Tytuł", name: "title", widget: "string" }
-          - { label: "Opis", name: "description", widget: "text" }
+    folder: "_data"  # Wskazujemy folder, w którym znajdują się dane
+    create: false # Nie chcemy, aby użytkownik tworzył nowe pliki .yml, tylko modyfikował istniejące.
+    slug: "{{year}}-{{title}}" #  Jakie jest ID edytowanego pliku
+    format: "yml" # Określamy, że edytowane dane są w formacie YML
+    fields: # Określamy, które pola można modyfikować
+        - { label: "Rok", name: "year", widget: "string" }
+        - { label: "Tytuł", name: "title", widget: "string" }
+        - { label: "Opis", name: "description", widget: "text" }
