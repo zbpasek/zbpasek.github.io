@@ -16,12 +16,12 @@ collections:
           - { label: "Treść", name: "body", widget: "markdown" }
   - name: "grants"
     label: "Granty"
-    folder: "_data"
-    create: false
-    slug: "{{id}}"
+    folder: "_grants"  # Zmieniamy folder na _grants
+    create: true      # Teraz możemy tworzyć nowe pliki
+    slug: "{{id}}"  # slug z samego id
     format: "yml"
     fields:
-        - { label: "id", name: "id", widget: "string", required: true}
+        - { label: "id", name: "id", widget: "string", required: true }
         - { label: "Rok", name: "year", widget: "string", required: true }
         - { label: "Tytuł", name: "title", widget: "string", required: true }
         - { label: "Opis", name: "description", widget: "string", required: true}
