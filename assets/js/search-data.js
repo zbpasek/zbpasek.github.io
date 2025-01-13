@@ -370,7 +370,7 @@ ninja.data = [{
       },
     },{id: "grants-etos-górniczy-w-20-lat-po-zamknięciu-kopalń",
           title: 'Etos górniczy w 20 lat po zamknięciu kopalń',
-          description: "Grant rektora AGH dla Koła Naukowego Kulturoznawców (opieka merytoryczna i realizacja badań terenowych w Wałbrzychu)",
+          description: "Grant rektora AGH dla Koła Naukowego Kulturoznawców (opieka merytoryczna i realizacja badań terenowych w Wałbrzychu) TEST",
           section: "Grants",handler: () => {
               window.location.href = "/grants/etos-gorniczy-w-20-lat-po-zamknieciu-kopaln/";
             },},{id: "grants-kulturowe-aspekty-strategii-promocyjnych-wałbrzycha",
