@@ -16,12 +16,11 @@ collections:
           - { label: "Treść", name: "body", widget: "markdown" }
   - name: "grants"
     label: "Granty"
-    file: "_data/grants.yml" # Poprawiono, wskazuje na pojedynczy plik
-    fields:
-      - { label: "Lista grantów", name: "grants", widget: "list", fields:
-          [
-            { label: "Rok", name: "year", widget: "number" },
-            { label: "Tytuł", name: "title", widget: "string" },
-            { label: "Opis", name: "description", widget: "text" }
-          ]
-        }
+    files:
+      - label: "Lista grantów"
+        name: "grants"
+        file: "_data/grants.yml"
+        fields:
+          - { label: "Rok", name: "year", widget: "number" }
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Opis", name: "description", widget: "text" }
