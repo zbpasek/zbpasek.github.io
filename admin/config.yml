@@ -16,7 +16,7 @@ collections:
           - { label: "Treść", name: "body", widget: "markdown" }
   - name: "grants"
     label: "Granty"
-    file: "_data/grants.yml"
+    file: "_data/grants.yml" # Poprawione
     fields:
       - { label: "Lista grantów", name: "grants", widget: "list", fields:
           [
