@@ -393,11 +393,6 @@ ninja.data = [{
           description: "Grant rektora AGH dla Koła Naukowego Kulturoznawców (opieka merytoryczna i realizacja badań terenowych w Wałbrzychu)",
           section: "Grants",handler: () => {
               window.location.href = "/grants/skarb-jako-szansa-na-wyjscie-z-szybu/";
-            },},{id: "grants-wspólnoty-religijne-wisły",
-          title: 'Wspólnoty religijne Wisły',
-          description: "Grant badawczy i wydawniczy Rady Miasta Wisły",
-          section: "Grants",handler: () => {
-              window.location.href = "/grants/wspolnoty-religijne-wisly/";
             },},{id: "grants-zabytki-w-krajobrazie-kulturowym-powiatu-wałbrzyskiego",
           title: 'Zabytki w krajobrazie kulturowym powiatu wałbrzyskiego',
           description: "Grant rektora AGH dla Kulturoznawczego Koła Naukowego (opieka merytoryczna i realizacja badań terenowych)",
