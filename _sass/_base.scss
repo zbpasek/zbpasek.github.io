@@ -399,6 +399,7 @@ ul.task-list input[type="checkbox"] {
 
 .social {
   text-align: center;
+  margin-top: 3rem;
 
   .contact-icons {
     font-size: 4rem;
@@ -1341,4 +1342,60 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+.news-item {
+  display: flex;
+  margin-bottom: 1rem;
+
+  .news-date {
+    min-width: 100px;
+    font-weight: bold;
+    color: var(--global-theme-color);
+  }
+
+  .news-content {
+    flex: 1;
+  }
+}
+
+
+.simple-gallery {
+  display: flex;
+  flex-direction: column;
+  /* Ustawia elementy w kolumnie (jedno pod drugim) */
+  align-items: center;
+  /* Wyśrodkowuje zdjęcia */
+  gap: 20px;
+  /* Odstęp między zdjęciami */
+  margin: 20px 0;
+}
+
+.gallery-item {
+  width: 100%;
+  /* Szerokość kontenera */
+  max-width: 600px;
+  /* Maksymalna szerokość zdjęcia (możesz dostosować) */
+  text-align: center;
+  /* Wyśrodkowanie podpisu */
+}
+
+.gallery-item img {
+  width: 100%;
+  /* Zdjęcie zajmuje całą dostępną szerokość kontenera */
+  height: auto;
+  /* Zachowuje proporcje */
+  border-radius: 10px;
+  /* Zaokrąglone rogi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Cień */
+}
+
+.gallery-item p {
+  margin-top: 10px;
+  /* Odstęp między zdjęciem a podpisem */
+  font-size: 1rem;
+  /* Rozmiar czcionki podpisu */
+  color: #fff;
+  /* Kolor tekstu */
 }
