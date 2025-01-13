@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "assets/uploads" # Folder na przesyłane pliki w repozytorium
-public_folder: "/assets/uploads" # Ścieżka publiczna do mediów
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
   - name: "pages"
@@ -16,10 +16,15 @@ collections:
           - { label: "Treść", name: "body", widget: "markdown" }
   - name: "grants"
     label: "Granty"
-    files:
+    folder: "_data" # ścieżka do folderu, w którym znajdują się pliki z danymi (koniecznie)
+    create: false  # blokujemy tworzenie nowych plików w folderze _data z poziomu CMS
+    slug: "{{year}}" # ustawiamy slug (nazwę pliku) - z tego zrobiony bedzie _data/grants/<slug>.yml
+    extension: "yml"  # ustalamy domyślne rozszerzenie
+    format: "yml" # format danych
+    fields:
       - label: "Lista grantów"
         name: "grants"
-        file: "_data/grants.yml"
+        widget: "list"
         fields:
           - { label: "Rok", name: "year", widget: "string" }
           - { label: "Tytuł", name: "title", widget: "string" }
