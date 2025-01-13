@@ -18,7 +18,7 @@ collections:
     label: "Granty"
     folder: "_data"
     create: false
-    slug: "{{id}}-{{year}}-{{title}}"
+    slug: "{{id}}"
     format: "yml"
     fields:
         - { label: "id", name: "id", widget: "string", required: true}
