@@ -21,10 +21,6 @@ collections:
         name: "grants"
         file: "_data/grants.yml"
         fields:
-          - { label: "Lista grantów", name: "grants", widget: "list", fields:
-              [
-                { label: "Rok", name: "year", widget: "number" },
-                { label: "Tytuł", name: "title", widget: "string" },
-                { label: "Opis", name: "description", widget: "text" }
-              ]
-            }
+          - { label: "Rok", name: "year", widget: "string" }
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Opis", name: "description", widget: "text" }
