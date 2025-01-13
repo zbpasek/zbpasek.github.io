@@ -16,7 +16,7 @@ collections:
           - { label: "Treść", name: "body", widget: "markdown" }
   - name: "grants"
     label: "Granty"
-    file: "_data/grants.yml" # Poprawione
+    file: "_data/grants.yml" # Poprawiono, wskazuje na pojedynczy plik
     fields:
       - { label: "Lista grantów", name: "grants", widget: "list", fields:
           [
