@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: zbpasek/zbpasek.github.io
+  name: git-gateway
   branch: main
 
 media_folder: "assets/uploads" # Folder na przesyłane pliki w repozytorium
