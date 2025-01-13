@@ -16,11 +16,11 @@ collections:
           - { label: "Treść", name: "body", widget: "markdown" }
   - name: "grants"
     label: "Granty"
-    folder: "_data"  # Wskazujemy folder, w którym znajdują się dane
-    create: false # Nie chcemy, aby użytkownik tworzył nowe pliki .yml, tylko modyfikował istniejące.
-    slug: "{{year}}-{{title}}" #  Jakie jest ID edytowanego pliku
-    format: "yml" # Określamy, że edytowane dane są w formacie YML
-    fields: # Określamy, które pola można modyfikować
+    folder: "_data"
+    create: false
+    slug: "{{year}}-{{title}}" # <-- Dodane pole slug
+    format: "yml"
+    fields:
         - { label: "Rok", name: "year", widget: "string" }
         - { label: "Tytuł", name: "title", widget: "string" }
         - { label: "Opis", name: "description", widget: "text" }
