@@ -1,16 +1,13 @@
 ---
-<<<<<<< HEAD
 layout: about
 title: 
 permalink: /
 subtitle: 
 
-=======
->>>>>>> b004f63e6206400c386f652932cfef1e5bfad966
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p><a href='https://wh.agh.edu.pl/wydzial/katedry/katedra-studiow-nad-kultura-i-badan-ery-cyfrowej/'>Katedra Studiów nad Kulturą i Badań Ery Cyfrowej</a></p>
     <p><a href='https://wh.agh.edu.pl/'>Wydział Humanistyczny AGH</a></p>
