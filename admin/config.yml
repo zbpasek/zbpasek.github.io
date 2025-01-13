@@ -13,5 +13,5 @@ collections:
         name: "about"
         file: "_pages/about.md"
         fields:
-          - { label: "Tytuł", name: "title", widget: "string" }
+          # - { label: "Tytuł", name: "title", widget: "string" }
           - { label: "Treść", name: "body", widget: "markdown" }
