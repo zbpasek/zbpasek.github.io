@@ -20,7 +20,7 @@ collections:
     folder: "_grants"
     create: true
     slug: "{{title}}" # Plik będzie nazwany na podstawie tytułu
-    format: "md"     # Plik zapisany jako YAML
+    format: "yaml-frontmatter"     # Plik zapisany jako YAML
     fields:
       - { label: "Rok", name: "year", widget: "string", required: true }
       - { label: "Tytuł", name: "title", widget: "string", required: true }
