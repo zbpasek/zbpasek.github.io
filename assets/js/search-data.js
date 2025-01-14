@@ -23,6 +23,27 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publikacje/";
           },
+        },{id: "nav-seminarium-doktoranckie",
+          title: "Seminarium doktoranckie",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/seminarium/";
+          },
+        },{id: "nav-archiwum-tekstów",
+          title: "Archiwum tekstów",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/archiwum/";
+          },
+        },{id: "nav-galeria",
+          title: "Galeria",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/galeria/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
