@@ -35,6 +35,6 @@ collections:
     format: "yaml-frontmatter" # Użycie YAML z front matter
     extension: "md" # Pliki będą miały rozszerzenie .md
     fields:
-      - { label: "Nazwa rozdziału", name: "section", widget: "string", required: true }
+      - { label: "Sekcja", name: "section", widget: "string", required: true }
       - { label: "Rok", name: "year", widget: "number", required: true }
       - { label: "Przypis", name: "citation", widget: "text", required: true }
